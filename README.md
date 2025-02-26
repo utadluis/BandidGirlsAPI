@@ -43,10 +43,13 @@ The following are the endpoints available in the API:
 
 ## Referencias
 
-- **Create a web API with ASP.NET Core** (https://docs.microsoft.com/en-us/aspnet/core/?view=aspnetcore-8.0](https://learn.microsoft.com/es-es/aspnet/core/tutorials/first-web-api?view=aspnetcore-9.0&tabs=visual-studio)
-- **Publish to Azure API Management using Visual Studio:** (https://docs.microsoft.com/en-us/ef/core/](https://learn.microsoft.com/es-es/aspnet/core/tutorials/publish-to-azure-api-management-using-vs?view=aspnetcore-9.0)
-- **Modeling with Entity Framework Core:** https://docs.microsoft.com/en-us/ef/core/](https://learn.microsoft.com/es-es/aspnet/core/tutorials/publish-to-azure-api-management-using-vs?view=aspnetcore-9.0](https://learn.microsoft.com/en-us/ef/core/modeling/)
-- **Managing migrations in Entity Framework Core:** https://learn.microsoft.com/en-us/ef/core/managing-schemas/migrations/managing?tabs=dotnet-core-cli)(https://docs.microsoft.com/en-us/ef/core/](https://learn.microsoft.com/en-us/ef/core/managing-schemas/migrations/managing?tabs=dotnet-core-cli)
+- **Create a web API with ASP.NET Core** https://docs.microsoft.com/en-us/aspnet/core/?view=aspnetcore-8.0](https://learn.microsoft.com/es-es/aspnet/core/tutorials/first-web-api?view=aspnetcore-9.0&tabs=visual-studio
+  
+- **Publish to Azure API Management using Visual Studio:** https://learn.microsoft.com/en-us/aspnet/core/tutorials/publish-to-azure-api-management-using-vs?view=aspnetcore-9.0
+  
+- **Modeling with Entity Framework Core:** https://learn.microsoft.com/en-us/ef/core/modeling/
+  
+- **Managing migrations in Entity Framework Core:** https://learn.microsoft.com/en-us/ef/core/managing-schemas/migrations/managing?tabs=dotnet-core-cli
 
 ## How to Run the Project
 
