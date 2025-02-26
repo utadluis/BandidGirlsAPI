@@ -1,0 +1,33 @@
+services:
+
+  sqldb:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    environment:
+      SA_PASSWORD: "your-password"
+      ACCEPT_EULA: "Y"
+    ports:
+      - "8002:1433"
+    restart: always
+    volumes:
+      - sql_data:/var/opt/mssql  # Descomenta si deseas persistencia
+    networks:
+      - quochuynhwebsite-network
+
+  bandidgirlsapi:
+    image: ${DOCKER_REGISTRY:-bandidgirlsapi}
+    build:
+      context: .
+      dockerfile: BandidGirlsAPI/Dockerfile
+    ports:
+      - "8003:80"
+    expose:
+      - "5000"
+    environment:
+      ASPNETCORE_URLS: "http://+:5000"
+    networks:
+      - quochuynhwebsite-network
+    restart: always
+
+networks:
+  quochuynhwebsite-network:
+    driver: bridge
